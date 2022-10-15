@@ -19,5 +19,10 @@ Imagem oficial do Python: https://hub.docker.com/_/python
 
 ## Criando o container
 
-1 - Abra o terminal na pasta raiz do projeto e execute o comando```docker build -t micro-python .```;
-2 - Para rodar o container, execute o comando ```docker run -it micro-python```.
+- 1 - Abra o terminal na pasta raiz do projeto e execute o comando```docker build -t micro-python .```;
+- 2 - Para rodar o container, execute o comando ```docker run -it micro-python```.
+
+## Criando a imagem e rodando o container
+
+- 1 - Para criar a imagem, rode o comando a seguir no terminal ```docker build -t micro-python .```;
+- 2 - Para executar o container, rode o comando ```docker run -it micro-python```.
